@@ -1,0 +1,10 @@
+@media(max-width : 768px){
+    .firstpart .containar h3 {
+        font-size: 12px;
+        width: 25%;
+        position: absolute;
+        padding-left: 10px;
+        padding-top: 15px;
+    
+    }
+}

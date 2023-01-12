@@ -1,0 +1,72 @@
+@media(max-width : 425px){
+    .main{
+        width: 100%;
+        height: 100vh;
+    }
+    .main .navbar .toleft {
+        position: absolute;
+        font-size: medium;
+        font-weight: 400;
+        color: black;
+        left: 12px;
+        bottom: 5px;
+    }
+    .main .navbar .toright {
+        margin-right: 3px;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    .main .firstpart{
+        width: 100%;
+        height: 340px;
+        position: relative;
+    } 
+    .main .firstpart .containar h3{
+        width: 100%;
+        position: absolute;
+        padding-top: 0px;
+        padding-left: 15px;
+    }
+    .main .firstpart .containar .pic img{
+        width: 80%;
+        height: 80%;
+    }
+    .main .firstpart .containar .pic {
+        position: absolute;
+        bottom: -200px;
+        left: 80px;
+    }
+    .main .firstpart .containar .btn {
+        position: absolute;
+        top: 550px;
+        left: 60px;
+    }
+    .main .part2 {
+        position: relative;
+        padding-left: 10px;
+        padding-top: 380px;
+    }
+    .main .part2 h1 {
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    .main .part2 .parttwo {
+        position: flex;
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding-top: 10px;
+        justify-content: center ;
+        flex-wrap: wrap;
+    }
+   .parttwo ul{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+   }
+  
+   
+   
+}
